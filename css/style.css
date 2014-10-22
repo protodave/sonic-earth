@@ -1,0 +1,49 @@
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.explanation {
+    font-family: verdana;
+    color: #CCC;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    margin-bottom: 5px;
+    font-size: x-small;
+    padding-bottom: 5px;
+}
+
+.page-header {
+    font-family: helvetica;
+    font-weight: lighter;
+    color: #CCCCCC;
+    font-style: normal;
+    text-align: center;
+    font-size: xx-large;
+    margin: 0px;
+}
+
+.explanation p a {
+    color: #6495ed;
+}
+
+html {
+    background-color: #000;
+}
+
+.explanation a {
+    color: #6495ed;
+
+}
+
+#globe, #globe canvas {
+    margin: 0 0;
+    width: 100% !important;
+    height: auto !important;
+}
+
+div {
+    background-color: #000;
+}
