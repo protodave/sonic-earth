@@ -41,10 +41,11 @@ scene.add(earth);
 // we wait until the document is loaded before loading the
 // density data.
 $(document).ready(function () {
-  jQuery.get('data/usgs-past-month.geojson', function (data) {
+  //jQuery.get('data/usgs-past-month.geojson', function (data) {
+  jQuery.getJSON("data/usgs-past-month.geojson", function (data) {
     // console.log(data);
-    quakeData = JSON.parse(data);
-    parseQuakes(quakeData);
+    //quakeData = JSON.parse(data);
+    parseQuakes(data);
     addLights();
     addEarth();
     // addClouds();
