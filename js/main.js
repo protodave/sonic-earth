@@ -93,6 +93,7 @@ function parseQuakes(data) {
     //var cubeGeom = new THREE.BoxGeometry(2, 2, (2^mag) * 25);
     //var cubeGeom = new THREE.BoxGeometry(0.5*mag, 0.5*mag, 5*Math.log(mag) * 25);
     var cubeGeom = new THREE.BoxGeometry(2, 2, 5*Math.log(mag/2.303) * 25);
+    //var cubeGeom = new THREE.BoxGeometry(2, 2, 1*(10^(mag/10.)) * 25);
 
     //var cubeMesh = new THREE.Mesh(cubeGeom, cubeMat);
     var cubeMesh = new THREE.Mesh(cubeGeom);
